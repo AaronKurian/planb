@@ -35,8 +35,13 @@ int main()
     int visited[MAX_VERTICES] = {0};
 
     printf("DFS Traversal Order:\n");
- 
-            dfs(1, visited, adjacencyMatrix, numVertices);
+    for (i = 0; i < numVertices; i++)
+    {
+        if (!visited[i])
+        {
+            dfs(i, visited, adjacencyMatrix, numVertices);
+        }
+    }
 
     return 0;
 }
