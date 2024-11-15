@@ -89,7 +89,7 @@ void deleteatend()
                     while(current->next!=NULL)
                    {
                       prev=current;
-                     current=current->next;
+                      current=current->next;
                    }
                  prev->next=NULL;
                  current->prev=NULL;

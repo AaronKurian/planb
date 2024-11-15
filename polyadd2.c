@@ -51,8 +51,7 @@ void addPoly()
     {
         if (temp1->degree == temp2->degree)
         {
-            poly3 = read_Poly(poly3, (temp1->coefficent + temp2->coefficent),
-                              temp1->degree);
+            poly3 = read_Poly(poly3, (temp1->coefficent + temp2->coefficent),temp1->degree);
             temp1 = temp1->next;
             temp2 = temp2->next;
         }

@@ -3,7 +3,7 @@ int items[100];
 int size;
 int front = -1;
 int rear = -1;
-int size;
+
 int isFull()
 {
     return (front == rear + 1) || (front == 0 && rear == size - 1);

@@ -10,7 +10,7 @@ struct HashTable
 {
     struct Node *chain[SIZE];
 };
-void init(struct HashTable *ht)
+void init(struct HashTable *ht) 
 {
     for (int i = 0; i < SIZE; i++)
     {
